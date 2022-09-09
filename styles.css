@@ -1,0 +1,29 @@
+/* transform: translate, scale rotate skew */
+
+div{
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+}
+.one{
+ background: red;
+ transform: scaleX(2);
+ transform: scaleY(3);
+ transform: skewX(-30deg);
+}
+.two {
+ background: green;
+ transform: translateY(50%);
+ transform: rotate(30deg);
+}
+.three {
+ background: blue;
+ transform: rotateZ(45deg);
+}
+.four {
+ background: orange;
+ transform: translate(75px, 75px);
+ transform: scale(0.5, 0.5);
+ transform: rotateX(45deg);
+ transform: rotateY(45deg);
+} 
